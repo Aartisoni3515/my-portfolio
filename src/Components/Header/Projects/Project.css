@@ -1,0 +1,23 @@
+.project-container{
+    height: 100%;
+    width: 100%;
+    
+}
+.project-content{
+    display: flex;
+}
+productItem{
+    display: flex;
+}
+.image-content img{
+    height: 100%;
+    width: 30%;
+}
+.image-content{
+
+}
+.project-name{
+}
+
+.project-desc{
+}
