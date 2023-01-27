@@ -40,11 +40,11 @@ const About = () => {
                   />
                 </h2>
                 <p>
-                  <strong style={{ fontSize: "20px" }}>
+                  <strong style={{ fontSize: "20px"  }}>
                    
                     S.S. Jain Subodh P.G. (Autonoumos)College, Jaipur.
                   </strong>
-                  <br />
+                  <br /> <br />
                   Passed BCA in 2021 by 80%. <br /> <br />
                   Good knowledge of HTML , CSS , JavaScript, Reactjs.
                     </p>
@@ -70,7 +70,7 @@ const About = () => {
                   Passed 12th class (science maths) by 68.40% from Rajasthan
                   Board.
                 </p>
-              </div>graduation
+              </div>
             </div>
           </div>
         </div>
