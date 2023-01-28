@@ -18,7 +18,7 @@ const About = () => {
               <p>My Name is Aarti Soni.</p>
               <p>I am From Jaipur, Rajasthan.</p>
               <p>
-                I am a frontend Developer ( ReactJS, JavaScript, HTML, CSS,
+                I am a Front-End Developer ( ReactJS, JavaScript, HTML, CSS,
                 Bootstrap).
               </p>
               <button className="res">Download Resume</button>

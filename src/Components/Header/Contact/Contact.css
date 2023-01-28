@@ -1,5 +1,8 @@
+
+
 .contact-container {
   text-align: center;
+
 }
 
 .contact-container h1 {
@@ -41,7 +44,7 @@
 }
 
 .icons {
-  margin-bottom: 50px;
+  margin-bottom: 200px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -63,55 +66,58 @@
   opacity: 0.5;
 }
 /* ....................................contact-form.............................. */
-
 .contact-content {
-  height: 100%;
+  /* background-repeat: no-repeat; */
+  position: sticky;
+  height: 100vh;
   width: 100%;
-  text-align: center;
-  margin-top: 100px;
-
- 
-  
+  border-radius: 10px;
+  margin-top: 40px;
 }
-
 .contact-form {
-  height: 500px;
-  width: 50%;
-  margin: 0 auto;
-  background-color: white;
-
-
- 
+  height: 600px;
+  width: 700px;
+  margin: 100px auto;
+  margin-top: 40px;
+  border: 1px solid white;
+  border-radius: 10px;
 }
-.form{
+.contact-form form {
+  margin-top: 40px;
+}
+.form {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: #fff;
+  margin-top: 90px;
+  font-size: 20px;
+  
 
 }
-.contact-left{
-  height: 500px;
-  width: 500px;
-  background-color: #fff;
-
-
+.contact-left {
+  height: 300px;
+  width: 200px;
+  padding: 30px 40px;
+  /* border: 1px solid white; */
+  padding-left: 4px;
+}
+#message {
+  width: 220px;
+  height: 310px;
+  background-color: rgb(206, 200, 200);
+  color: black;
 }
 
-.contact-right{
-  height: 500px;
-  width: 500px;
-  background: white;
-
-
+.contact-right {
+  margin-top: 10px;
+}
+.form label {
+  line-height: 3rem;
 }
 
-.form input{
+.form input {
   line-height: 30px;
-  width: 500px;
-
-
+  width: 200px;
+  border-radius: 5px;
+  line-height: 2rem;
 }
-
-
-

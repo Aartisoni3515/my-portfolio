@@ -43,7 +43,7 @@
   font-family: "Urbanist", sans-serif;
 }
 
-h2 span {
+.head span {
   text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
@@ -68,4 +68,32 @@ h2 span {
   to {
     background-position: 200% center;
   }
+
+}
+
+@media screen and (max-width:800px) {
+  .head{
+    width: 100%;
+  }
+  
+.project-container{
+  width: 100%;
+}
+.project-content{
+  margin-top: 90px;
+  width: 600px;
+  height: 700px;
+
+}
+.image-content img {
+  width: 400px;
+  height: 450px;
+
+
+}
+.project-desc p{
+  text-align: center;
+  padding: 2px 30px;
+}
+
 }

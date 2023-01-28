@@ -169,3 +169,97 @@
   }
 /* skills */
 
+.skills{
+  margin-top: 60px;
+  margin-left: 100px;
+  display: grid;
+  text-align: center;
+}
+.skill-rate{
+  display: grid;
+  justify-content: center;
+
+}
+.progress h4{
+  text-align: center;
+  margin-left: 25px;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  font-size: 25px;
+ 
+}
+.bar{
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  margin-left: 300px;
+}
+
+
+@media screen and (max-width:800px ){
+  
+  .about-container{
+    width: 100%;
+    
+  }
+
+  .about-content {
+    display: grid;
+  }
+  
+  .about-img {
+    display: grid;
+  }
+  .about-img img {
+    width: 100%;
+    height: 450px;
+    opacity: 0.5;
+  }
+  .about-des h1 {
+    margin-bottom: 30px;
+    font-size: 50px;
+  }
+  .res{
+    margin-bottom: 50px;
+  }
+
+
+  .mid-des{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin: 0 200px;
+  }
+  .high{
+    margin-bottom: 20px;
+  }
+.second{
+  margin-top: 20px;
+}
+.skills{
+  margin-top: 200px;
+  margin-left: 100px;
+  display: grid;
+  text-align: center;
+}
+.skill-rate{
+  display: grid;
+  justify-content: center;
+
+}
+.progress h4{
+  width: 200%;
+  text-align: center;
+  margin-left: 25px;
+  margin-bottom: 30px;
+ 
+}
+.bar{
+  width: 200%;
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+
+}

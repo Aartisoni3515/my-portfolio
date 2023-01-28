@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="navbar">
         <div className="nav-container">
           <div className="navbar-icon">
-            <img src={logo} alt="" />
+            {/* <img src={logo} alt="" /> */}
             {/* <h2> <Link to='/'> <span>A</span>arti  <span>S</span>oni</Link> </h2> */}
           </div>
           <ul className={click ? "nav-list active" : "nav-list"}>

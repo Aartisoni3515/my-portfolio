@@ -47,15 +47,10 @@ function Skills() {
   }, [percentage3]);
 
   return (
-    <div style={{ textAlign: "center" }}>
+    <div className="progress">
       <h4>Check out Some Of my Skills </h4>
-      <div
-        style={{
-          display: "flex",
-          width: "50%",
-          justifyContent: "space-between",
-          marginLeft: "400px",
-        }}
+      <div className="bar"
+       
       >
         <h3 style={{ paddingRight: "30px", width: "50%" }} className="bar1">
           {" "}

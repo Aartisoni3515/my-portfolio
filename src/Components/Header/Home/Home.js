@@ -6,6 +6,7 @@ import AOS from "aos";
 import 'aos/dist/aos.css'
 import { useEffect } from "react";
 import About from "../About/About";
+import { Link } from "react-router-dom";
 
 const Home = () => {
    
@@ -38,7 +39,7 @@ const Home = () => {
   <span>I </span>
   <span> am </span>
   <span>a </span>
-  <span>Frontend </span>
+  <span>Front-End </span>
   <span>developer. </span>
  
 </h3>
@@ -48,8 +49,8 @@ const Home = () => {
         </div>
           <div className="buttons">
 
-            <button className="mid-btn">Projects</button>
-            <button className="glow-on-hover">Contact</button>
+           <Link to="/projects"> <button className="mid-btn">Projects</button> </Link>
+           <Link to= "/contact"> <button className="glow-on-hover">Contact</button> </Link>
 
           </div>
       </div>

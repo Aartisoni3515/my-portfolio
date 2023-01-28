@@ -9,11 +9,13 @@ import {
   BsLinkedin,
   BsGithub,
 } from "react-icons/bs";
+import bg from "../Images/bg4.jpg"
 
 const Contact = () => {
 
   return (
     <>
+    <div className="contact-page">
       <div className="contact-container">
         <h1>
           <span>C</span>ontact
@@ -45,14 +47,15 @@ const Contact = () => {
           </div>
         </div>
       </div>
-
-        {/* <BsInstagram />
+       {/* BsLink45Deg  */}
+ <BsInstagram />
         <BsFacebook />
-        {/* BsLink45Deg */}
-        {/* <BsLinkedin />
-        <BsGithub />  */}
-
+        <BsLinkedin />
+        <BsGithub /> 
+  <div className="contact-content">
+  
         <div className="contact-form">
+        {/* <img src={bg} alt="" /> */}
         <h2 style={{textAlign:"left"}}>Contact Form</h2>
           <form>
           <div className="form">
@@ -73,13 +76,16 @@ const Contact = () => {
 
             <div className="contact-right">
               <div>
-                <label htmlFor="message">Message:</label>
-                <textarea id="message" required />
+                <label htmlFor="message">Message:</label> <br />
+
+                <textarea  id="message" required />
               </div>
             </div>
             </div>
-            <button type="submit">btn</button>
+            <button style={{ marginTop:"-400px" , marginLeft:"100px"}} className="mid-btn" type="submit">Submit</button>
           </form>
+        </div>
+        </div>
         </div>
     </>
   );

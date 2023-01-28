@@ -1,7 +1,6 @@
 .home-container {
-  position: relative;
   width: 100%;
-  background-color: black;
+  height: 100%;
   color: white;
 }
 
@@ -305,27 +304,49 @@ span:nth-child(5) {
   color: white;
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 800px) {
   .home-container {
     width: 100%;
-    background-color: black;
-    color: white;
+    height: 100%;
+    
   }
 
   .home-content {
     margin-top: 10px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
   }
   .img-content img {
-    width: 50%;
+    width: 500px;
+    margin-left: 500px;
   }
 
   .text-content {
     font-family: "Urbanist", sans-serif;
-    font-size: 10px;
+    font-size: 20px;
+    margin-top: 500px;
   }
+  .line h3{
+    margin-top: 30px;
+    text-align: center;
+  }
+  .buttons {
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+}
+.glow-on-hover{
+  margin-top: 58px;
+}
+
+
+
+
+
+
+
+
+
 }
 /* ............................hr...................... */
 hr{
@@ -333,9 +354,5 @@ hr{
 color: white;
 width: 80%;
 margin-top: 100px;
-
-
 }
-
-
 
