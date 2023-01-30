@@ -18,7 +18,6 @@
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-  margin-top: 30px;
 
 }
 
@@ -211,6 +210,7 @@ span:nth-child(5) {
 .buttons {
   text-align: center;
   margin-top: 0px;
+
 }
 
 .glow-on-hover {
@@ -289,9 +289,7 @@ span:nth-child(5) {
     background-position: 0 0;
   }
 }
-.mid-btn button {
-  /* margin-top: 30px; */
-}
+
 
 .mid-btn {
   width: 160px;
@@ -351,28 +349,32 @@ span:nth-child(5) {
   }
   .line h3 {
     margin-left: 0px;
+    background: transparent;
 
     margin-top: 30px;
     text-align: center;
   }
+  .line{
+    margin-bottom: 100px;
+    background: transparent;
+  }
   .buttons {
     display: flex;
     text-align: center;
-    margin-top: 100px;
 
   }
-  .buttons .mid-btn {
-    margin-left: -100px;
+    .buttons .mid-btn {
+    margin-left: -200px;
   }
 
   
   .glow-on-hover {
-    margin-top: 50px;
+    margin-right: 200px;
   }
 }
 /* ............................hr...................... */
 hr {
   color: white;
   width: 80%;
- margin: 0 auto;
+ margin: 0px auto;
 }

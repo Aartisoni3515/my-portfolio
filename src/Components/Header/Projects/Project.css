@@ -16,7 +16,8 @@
 .project-content {
 
   width: 30%;
-  margin: 40px auto;
+  height: 65vh;
+  margin: 50px auto;
   border: 1px solid white;
   border-radius: 20px;
   box-shadow: 12px 0 15px -4px #c03060, -12px 0 8px -4px #44107a;
@@ -33,7 +34,13 @@
 .hide{
   display: none;
 }
-
+.head{
+  text-align: center;
+  margin-right: 63px;
+  line-height: 2rem;
+  margin-top: 0px;
+  
+}
 
 
 .image-content img:hover {
@@ -43,9 +50,11 @@
 }
 
 .project-name {
+  background: transparent;
   text-align: center;
   margin-top: 10px;
   font-size: 20px;
+  margin-bottom: 30px;
   font-family: "Urbanist", sans-serif;
 }
 

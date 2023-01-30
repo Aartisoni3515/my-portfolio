@@ -51,11 +51,10 @@ const Projects = () => {
       <h2 className="head"
         style={{
           textAlign: "center",
-          marginBottom: "30px",
+          marginBottom: "60px",
           marginLeft: "30%",
           fontSize: "30px",
           letterSpacing: "10px",
-          marginTop:"50px",
         }}
       >
         <span style={{marginTop:"120px"}} >C</span>heck
