@@ -3,7 +3,7 @@ import "./About.css";
 import bg3 from "../Images/bg3.jpg";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
-import Skills from "./Skills"
+import Skills from "./Skills";
 
 const About = () => {
   return (
@@ -17,7 +17,7 @@ const About = () => {
               </h1>
               <p>My Name is Aarti Soni.</p>
               <p>I am From Jaipur, Rajasthan.</p>
-              <p>
+              <p className="para">
                 I am a Front-End Developer ( ReactJS, JavaScript, HTML, CSS,
                 Bootstrap).
               </p>
@@ -29,7 +29,9 @@ const About = () => {
           {/* <hr /> */}
 
           <div className="about-mid">
-            <h1><span>Q</span>ualificaton</h1>
+            <h1>
+              <span>Q</span>ualificaton
+            </h1>
             <div className="mid-des">
               <div className="high">
                 <h2>
@@ -40,14 +42,13 @@ const About = () => {
                   />
                 </h2>
                 <p>
-                  <strong style={{ fontSize: "20px"  }}>
-                   
+                  <strong style={{ fontSize: "20px" }}>
                     S.S. Jain Subodh P.G. (Autonoumos)College, Jaipur.
                   </strong>
                   <br /> <br />
                   Passed BCA in 2021 by 80%. <br /> <br />
                   Good knowledge of HTML , CSS , JavaScript, Reactjs.
-                    </p>
+                </p>
               </div>
 
               <div className="second">
@@ -60,7 +61,6 @@ const About = () => {
                 </h2>
                 <p>
                   <strong style={{ fontSize: "20px" }}>
-                   
                     Gems India sr. sec. school,Jaipur,Rajasthan.
                   </strong>
                   <br />
@@ -74,23 +74,9 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="skills">
-        <div className="Skill-rate">
-        
-          <Skills/>
-
-    
-
-
-
-
-
-
-
-
-
-          </div>
-        </div>
+      <div className="skills">
+          <Skills />
+      </div>
       </div>
     </>
   );

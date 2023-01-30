@@ -1,40 +1,61 @@
+
 .home-container {
+  background: #000;
+  margin-top: 0px;
   width: 100%;
   height: 100%;
   color: white;
+  position: relative;
+  /* overflow: hidden; */
+}
+.content{
+  display: grid;
+  justify-content: left;
 }
 
 .home-content {
-  margin-top: 10px;
+  /* margin-top: 10px; */
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+  margin-top: 30px;
+
 }
 
- 
 .img-content img {
   width: 50%;
-  margin-top: 30px;
+  margin-top: 150px;
   margin-left: 0px;
 }
-
 
 /*....................................................... text............................................. */
 
 .text-content {
   /* font-family: 'Roboto', sans-serif; */
-  margin-top: 100px;
+  margin-top: 200px;
   margin-right: 200px;
+  margin-bottom: 0px;
   position: static;
   font-family: "Urbanist", sans-serif;
   font-size: 30px;
 }
-#hero{
+.line{
+  margin-top: 50px;
+  margin-right: 40px;
+  margin-bottom: 0px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: left;
+  margin-right: 100px;
+}
+
+#hero {
   width: 120%;
   margin-right: 200px;
 }
 .text-content span {
-
   text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
@@ -60,9 +81,6 @@
     background-position: 200% center;
   }
 }
-
-
-  
 
 .text-content h1 span {
   text-transform: uppercase;
@@ -192,10 +210,8 @@ span:nth-child(5) {
 
 .buttons {
   text-align: center;
-  margin-left:  360px;
-  margin-top: -190px;
+  margin-top: 0px;
 }
-
 
 .glow-on-hover {
   margin-top: -10px;
@@ -274,7 +290,7 @@ span:nth-child(5) {
   }
 }
 .mid-btn button {
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 
 .mid-btn {
@@ -296,7 +312,7 @@ span:nth-child(5) {
   font-size: 20px;
   margin-right: 30px;
 }
-.mid-btn button{
+.mid-btn button {
   margin-top: -40px;
 }
 .mid-btn:hover {
@@ -308,51 +324,55 @@ span:nth-child(5) {
   .home-container {
     width: 100%;
     height: 100%;
-    
+  }
+  #hero {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .home-content {
     margin-top: 10px;
     width: 100%;
     display: flex;
+    margin-top: 0px;
   }
   .img-content img {
-    width: 500px;
-    margin-left: 500px;
+    width: 200px;
+    /* height: 300px; */
+    margin-left: 200px;
   }
 
   .text-content {
     font-family: "Urbanist", sans-serif;
     font-size: 20px;
-    margin-top: 500px;
+    margin-top: 200px;
+    margin-left: 9px;
   }
-  .line h3{
+  .line h3 {
+    margin-left: 0px;
+
     margin-top: 30px;
     text-align: center;
   }
   .buttons {
     display: flex;
     text-align: center;
-    margin-top: 20px;
-}
-.glow-on-hover{
-  margin-top: 58px;
-}
+    margin-top: 100px;
 
+  }
+  .buttons .mid-btn {
+    margin-left: -100px;
+  }
 
-
-
-
-
-
-
-
+  
+  .glow-on-hover {
+    margin-top: 50px;
+  }
 }
 /* ............................hr...................... */
-hr{
-
-color: white;
-width: 80%;
-margin-top: 100px;
+hr {
+  color: white;
+  width: 80%;
+ margin: 0 auto;
 }
-

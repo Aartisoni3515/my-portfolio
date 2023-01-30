@@ -1,12 +1,17 @@
-.about-container{
-    width: 100%;
-    height: 100%;
-}
+.about-container {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  
 
+}
 .about-content {
   margin-top: 30px;
 }
 
+.head{
+  background: #000;
+}
 .about-img {
   display: flex;
   justify-content: space-evenly;
@@ -52,7 +57,7 @@
   /* text-align: justify; */
   text-align: center;
   margin-top: 35px;
-  line-height: 2rem;
+  line-height: 3.5rem;
   font-size: 20px;
 }
 
@@ -85,128 +90,162 @@
 }
 /* ...............................about-mid......................................... */
 
-.about-mid{
-    margin-top: 20px;
+.about-mid {
+  margin-top: 20px;
 }
 
-.about-mid h1{
-    margin-top: 50px;
-    text-align: center;
-    font-size: 50px;
-
-
-}
-    
-.mid-des{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 100px;
-    height: 50vh;
-}
-.mid-des h2{
-    font-size: 35px;
+.about-mid h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 50px;
 }
 
-.high{
-    width: 600px;
-    height: 250px;
-    border: 1px solid white;
-    border-radius: 20px;
-    box-shadow: 12px 0 15px -4px #c03060, -12px 0 8px -4px #44107a;
-    text-align: center;
-
+.mid-des {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  height: 50vh;
+}
+.mid-des h2 {
+  font-size: 35px;
 }
 
-.mid-img{
-    font-size: 30px;
-    background: white;
-    border-radius: 15px;
-    margin: -20px -31px -5px 19px;
-
+.high {
+  width: 600px;
+  height: 250px;
+  border: 1px solid white;
+  border-radius: 20px;
+  box-shadow: 12px 0 15px -4px #c03060, -12px 0 8px -4px #44107a;
+  text-align: center;
 }
 
-.mid-img2{
-    font-size: 20px;
-   margin: -25px -31px -15px 9px;
-
+.mid-img {
+  font-size: 30px;
+  background: white;
+  border-radius: 15px;
+  margin: -20px -31px -5px 19px;
 }
-.second{
-    width: 600px;
-    height: 250px;
-    border: 1px solid white;
-    text-align: center;
-    border-radius: 20px;
-    box-shadow: 12px 0 15px -4px #c03060, -12px 0 8px -4px #44107a;
 
-    
+.mid-img2 {
+  font-size: 20px;
+  margin: -25px -31px -15px 9px;
+}
+.second {
+  width: 600px;
+  height: 250px;
+  border: 1px solid white;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 12px 0 15px -4px #c03060, -12px 0 8px -4px #44107a;
+}
+.about-mid span {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
 
-} 
- .about-mid span{
-    text-transform: uppercase;
-    background-image: linear-gradient(
-      -225deg,
-      #231557 0%,
-      #44107a 29%,
-      #ff1361 67%,
-      #fff800 100%
-    );
-    background-size: auto auto;
-    background-clip: border-box;
-    background-size: 200% auto;
-    color: #fff;
-    background-clip: text;
-    /* text-fill-color: transparent; */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: textclip 2s linear infinite;
-    display: inline-block;
+@keyframes textclip {
+  to {
+    background-position: 200% center;
   }
-  
-  @keyframes textclip {
-    to {
-      background-position: 200% center;
-    }
-  }
+}
 /* skills */
 
-.skills{
+.progress h4 span{
+font-family: "Montserrat Medium";
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+.skills {
   margin-top: 60px;
   margin-left: 100px;
   display: grid;
   text-align: center;
 }
-.skill-rate{
+.skill-rate {
   display: grid;
   justify-content: center;
-
 }
-.progress h4{
-  text-align: center;
-  margin-left: 25px;
+.progress h4 {
+  font-family: "Montserrat Medium";
   margin-top: 70px;
   margin-bottom: 30px;
-  font-size: 25px;
- 
+  text-align: center;
+    font-size: 30px;
+    letter-spacing: 10px;
+  
 }
-.bar{
+.bar {
   width: 800px;
   display: flex;
   justify-content: center;
   margin-left: 300px;
 }
+.bar1{
+  padding-right:80px ;
 
-
-@media screen and (max-width:800px ){
+}
+.bar1 span{
+  margin-top: 40px;
   
-  .about-container{
+}
+
+@media screen and (max-width: 800px) {
+  .about-container {
     width: 100%;
-    
+    margin: 0 auto;
   }
 
   .about-content {
     display: grid;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: justify;
   }
-  
+  .para {
+    width: 250px;
+    text-align: center;
+    margin-left: 100px;
+  }
   .about-img {
     display: grid;
   }
@@ -219,47 +258,78 @@
     margin-bottom: 30px;
     font-size: 50px;
   }
-  .res{
-    margin-bottom: 50px;
+  .res {
+    margin: 22px 39px 53px 57px;
   }
 
-
-  .mid-des{
+  .mid-des {
     display: grid;
     justify-content: center;
     text-align: center;
-    margin: 0 200px;
-  }
-  .high{
-    margin-bottom: 20px;
-  }
-.second{
-  margin-top: 20px;
-}
-.skills{
-  margin-top: 200px;
-  margin-left: 100px;
-  display: grid;
-  text-align: center;
-}
-.skill-rate{
-  display: grid;
-  justify-content: center;
+    margin: 0 auto;
 
-}
-.progress h4{
-  width: 200%;
-  text-align: center;
-  margin-left: 25px;
-  margin-bottom: 30px;
+  }
+
+
+  .high {
+    margin: 50px auto;
+    width: 300px;
+    height: 370px;
+
+    text-align: center;
+  }
+  .high h2{
+    text-align: center;
+    margin: 10px 12px;
+  }
+  .mid-img{
+    font-size: 40px;
+    background: white;
+    border-radius: 15px;
+    margin: 16px auto;
+    padding: 8px;
+
+  }
  
-}
-.bar{
-  width: 200%;
-  display: flex;
-  justify-content: center;
-  margin-left: 30px;
-}
+  .second {
+    margin: 50px auto;
+    width: 300px;
+    height: 400px;
+    margin-top: 20px;
+  }
 
+  .mid-img2{
+    font-size: 30px;
+    background: white;
+    border-radius: 15px;
+    margin: 16px auto;
+  }
+  .second h2{
+    text-align: center;
+    margin: 10px 65px;
+  }
 
+  .skills {
+    width: 700px;
+    margin-top: 500px;
+    margin-left: -300px;
+   
+    text-align: center;
+  }
+ 
+  .progress h4 {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 320px;
+  }
+  
+  .bar {
+    display: block;
+    width: 200px;
+   margin-left: 360px;
+   padding-left: 40px;
+  }
+}
+.bar1{
+ margin-top: 70px;
 }

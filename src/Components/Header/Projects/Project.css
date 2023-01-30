@@ -1,3 +1,8 @@
+
+.project{
+  background: #000;
+}
+
 .project-container {
   height: 100%;
   width: 100%;
@@ -6,8 +11,10 @@
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
+  overflow: hidden;
 }
 .project-content {
+
   width: 30%;
   margin: 40px auto;
   border: 1px solid white;
@@ -23,9 +30,16 @@
   border-radius: 40px;
   opacity: 0.5;
 }
+.hide{
+  display: none;
+}
+
+
+
 .image-content img:hover {
   cursor: pointer;
   opacity: 0.2;
+  
 }
 
 .project-name {
@@ -73,7 +87,10 @@
 
 @media screen and (max-width:800px) {
   .head{
-    width: 100%;
+    text-align: center;
+    margin-right: 63px;
+    line-height: 2rem;
+    
   }
   
 .project-container{
@@ -81,13 +98,14 @@
 }
 .project-content{
   margin-top: 90px;
-  width: 600px;
-  height: 700px;
+  margin-left: 48px;
+  width: 325px;
+  height: 500px;
 
 }
 .image-content img {
-  width: 400px;
-  height: 450px;
+  width: 289px;
+    height: 264px;
 
 
 }

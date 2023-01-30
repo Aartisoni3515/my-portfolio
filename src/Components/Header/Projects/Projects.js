@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Project.css";
+import {BsLink45Deg} from "react-icons/bs"
 
 const Projects = () => {
   const [product] = useState([
@@ -46,6 +47,7 @@ const Projects = () => {
 
   return (
     <>
+    <div className="project">
       <h2 className="head"
         style={{
           textAlign: "center",
@@ -53,9 +55,10 @@ const Projects = () => {
           marginLeft: "30%",
           fontSize: "30px",
           letterSpacing: "10px",
+          marginTop:"50px",
         }}
       >
-        <span>C</span>heck
+        <span style={{marginTop:"120px"}} >C</span>heck
         <span>O</span>ut
         <span>S</span>ome
         <span>O</span>f<span>M</span>y
@@ -72,6 +75,11 @@ const Projects = () => {
 
               <div className="image-content">
                 <img src={productItem.image} />
+                
+
+                <BsLink45Deg  className="hide"/>
+               
+
               </div>
               <div className="project-desc">
                 <p> {productItem.Desc} </p>
@@ -79,6 +87,7 @@ const Projects = () => {
             </div>
           );
         })}
+      </div>
       </div>
     </>
   );

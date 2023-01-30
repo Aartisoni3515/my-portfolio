@@ -3,15 +3,26 @@ import "./Navbar.css";
 import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import { RiCloseLine } from "react-icons/ri";
-import logo from "../Header/Images/logo2.png";
+// import logo from "../Header/Images/logo2.png";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
+ 
+  const[color , setColor] = useState(false);
+  const changeColor=()=>{
+    if(window.scrollY>=100){
+      setColor(true);
+    }else{
+      setColor(false)
+    }
+  }
+  window.addEventListener("scroll" , changeColor);
+
   return (
     <>
       <div className="navbar">
-        <div className="nav-container">
+        <div className={color ? "nav-container header-bg" :"nav-container"}>
           <div className="navbar-icon">
             {/* <img src={logo} alt="" /> */}
             {/* <h2> <Link to='/'> <span>A</span>arti  <span>S</span>oni</Link> </h2> */}

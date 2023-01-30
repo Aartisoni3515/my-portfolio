@@ -1,14 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
-import "./About.css"
+import "./About.css";
 
 function Skills() {
-
-
-
-
-
   const [percentage, setPercentage] = useState(0);
   const [percentage1, setPercentage1] = useState(0);
   const [percentage2, setPercentage2] = useState(0);
@@ -48,38 +43,38 @@ function Skills() {
 
   return (
     <div className="progress">
-      <h4>Check out Some Of my Skills </h4>
-      <div className="bar"
-       
-      >
-        <h3 style={{ paddingRight: "30px", width: "50%" }} className="bar1">
+      <h4>
+        <span>C</span>heck
+        <span>O</span>ut
+        <span>S</span>ome
+        <span>O</span>f<span>M</span>y<span>S</span>kills
+      </h4>
+      <div className="bar">
+        <h3 style={{ width: "100%" }} className="bar1">
           {" "}
           <CircularProgressbar
             value={percentage}
             text={`${percentage}%`}
           />{" "}
-          Reactsjs
+          <span>Reactsjs</span>
         </h3>
-        <h3 style={{ paddingRight: "30px", width: "50%" }} className="bar1">
+        <h3 style={{ width: "100%" }} className="bar1">
           {" "}
-          <CircularProgressbar
-            value={percentage1}
-            text={`${percentage1}%`}
-          />{" "}
-          JavaScript{" "}
+          <CircularProgressbar value={percentage1} text={`${percentage1}%`} />
+          <span> JavaScript </span>
         </h3>
-        <h3 style={{ paddingRight: "30px", width: "50%" }} className="bar1">
+        <h3 style={{ width: "100%" }} className="bar1">
           {" "}
           <CircularProgressbar
             value={percentage2}
             text={`${percentage2}%`}
           />{" "}
-          HTML
+          <span> HTML</span>
         </h3>
-        <h3 style={{ paddingRight: "30px", width: "50%" }} className="bar1">
+        <h3 style={{ width: "100%" }} className="bar1">
           {" "}
           <CircularProgressbar value={percentage3} text={`${percentage3}%`} />
-          CSS
+          <span>CSS</span>
         </h3>
       </div>
     </div>
