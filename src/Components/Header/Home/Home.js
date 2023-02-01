@@ -69,7 +69,7 @@ const Home = () => {
           </div>
           </div>
         </div>
-        <hr style={{ marginTop: "200px" }} />
+        <hr style={{ marginTop: "100px" }} />
         <About/>
         <Projects/>
         <Contact/>

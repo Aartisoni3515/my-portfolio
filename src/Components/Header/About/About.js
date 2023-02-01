@@ -17,7 +17,7 @@ const About = () => {
               </h1>
               <p>My Name is Aarti Soni.</p>
               <p>I am From Jaipur, Rajasthan.</p>
-              <p className="para">
+              <p >
                 I am a Front-End Developer ( ReactJS, JavaScript, HTML, CSS,
                 Bootstrap).
               </p>
@@ -42,11 +42,11 @@ const About = () => {
                   />
                 </h2>
                 <p>
-                  <strong style={{ fontSize: "20px" }}>
-                    S.S. Jain Subodh P.G. (Autonoumos)College, Jaipur.
+                  <strong style={{ fontSize: "20px" , margin:"10px auto" }}>
+                    University of Rajasthan
                   </strong>
                   <br /> <br />
-                  Passed BCA in 2021 by 80%. <br /> <br />
+                  Passed BCA in 2021 with 80%. <br /> <br />
                   Good knowledge of HTML , CSS , JavaScript, Reactjs.
                 </p>
               </div>
@@ -65,9 +65,9 @@ const About = () => {
                   </strong>
                   <br />
                   <br />
-                  Passed 10th class by 88% from Rajasthan Board. <br />
+                  Passed 10th  with 88% from Rajasthan Board. <br />
                   <br />
-                  Passed 12th class (science maths) by 68.40% from Rajasthan
+                  Passed 12th  (Science Maths)  with 68.40% from Rajasthan
                   Board.
                 </p>
               </div>

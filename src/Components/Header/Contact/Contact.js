@@ -67,7 +67,7 @@ const Contact = () => {
         {/* <img className="contact-img" src={bg} alt="" /> */}
           <div className="contact-form">
             {/* <img src={bg} alt="" /> */}
-            <h2 style={{ textAlign: "left", marginLeft: "20px" }}>
+            <h2 style={{ textAlign: "left", marginLeft: "90px" , marginTop: "50px" , fontSize:"30px"}}>
               Contact Form
             </h2>
             <form>
@@ -104,6 +104,7 @@ const Contact = () => {
             </form>
           </div>
         </div>
+        <p style={{textAlign:"center", fontSize:"15px" , marginBottom:"10px"}}>Made by Aarti </p>
       </div>
     </>
   );

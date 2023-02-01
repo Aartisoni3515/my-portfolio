@@ -16,7 +16,7 @@
 .project-content {
 
   width: 30%;
-  height: 65vh;
+  height: 70vh;
   margin: 50px auto;
   border: 1px solid white;
   border-radius: 20px;
@@ -97,17 +97,20 @@
 @media screen and (max-width:800px) {
   .head{
     text-align: center;
-    margin-right: 63px;
+  
     line-height: 2rem;
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin: 0 auto;
+}
     
-  }
+  
   
 .project-container{
   width: 100%;
 }
 .project-content{
-  margin-top: 90px;
-  margin-left: 48px;
+  margin: 50px auto;
   width: 325px;
   height: 500px;
 

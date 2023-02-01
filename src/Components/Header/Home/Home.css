@@ -6,7 +6,7 @@
   height: 100%;
   color: white;
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 .content{
   display: grid;
@@ -211,6 +211,14 @@ span:nth-child(5) {
   text-align: center;
   margin-top: 0px;
 
+}
+.buttons .mid-btn {
+  margin-left: -200px;
+}
+
+
+.glow-on-hover {
+  margin-right: 200px;
 }
 
 .glow-on-hover {
