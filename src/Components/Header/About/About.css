@@ -229,6 +229,15 @@ font-family: "Montserrat Medium";
   
 }
 
+
+.CircularProgressbar .CircularProgressbar-path {
+  stroke: blue;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.5s ease 0s;
+}
+
+
+
 @media screen and (max-width: 800px) {
   .about-container {
     width: 100%;

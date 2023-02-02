@@ -30,10 +30,9 @@
   box-shadow: 5px 30px white;
   border-radius: 40px;
   opacity: 0.5;
+  /* position: absolute; */
 }
-.hide{
-  display: none;
-}
+
 .head{
   text-align: center;
   margin-right: 63px;
