@@ -1,4 +1,7 @@
-
+.contact-page{
+  height: 100vh;
+  width: 100%;
+}
 
 .contact-container {
   text-align: center;
@@ -103,8 +106,7 @@
 .contact-content {
   /* background-repeat: no-repeat; */
   position: sticky;
-  height: 100vh;
-  width: 100%;
+
   border-radius: 10px;
   margin-top: 0px;
 }
@@ -244,12 +246,10 @@ z-index: -1;
   height: 115vh;
   width: 300px;
   margin-top: 40px;
-  margin-left: 20px;
   padding-bottom: 300px;
   border: 1px solid white;
   border-radius: 10px;
   margin-bottom: 300px;
-  margin-left: 60px;
 }
 .form {
   display: grid;
@@ -283,7 +283,6 @@ margin-bottom: 100px;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-left: 30px;
  
 }
 .icon h3{

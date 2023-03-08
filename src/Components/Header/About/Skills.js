@@ -3,11 +3,13 @@ import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import "./About.css";
 
-function Skills() {
+function Skills(props) {
   const [percentage, setPercentage] = useState(0);
   const [percentage1, setPercentage1] = useState(0);
   const [percentage2, setPercentage2] = useState(0);
   const [percentage3, setPercentage3] = useState(0);
+
+ 
 
   useEffect(() => {
     setTimeout(() => {
@@ -45,12 +47,13 @@ function Skills() {
     <div className="progress">
       <h4>
         <span>C</span>heck
-        <span>O</span>ut
-        <span>S</span>ome <br />
-        <span>O</span>f<span>M</span>y<span>S</span>kills
+        <span>O</span>ut 
+        <span>S</span>ome 
+        <span>O</span>f<span>M</span>y 
+        <span>S</span>kills
       </h4>
       <div className="bar">
-        <h3 style={{ width: "100%" }} className="bar1">
+        <h3 className="bar1">
           {" "}
           <CircularProgressbar
             value={percentage}
@@ -58,12 +61,12 @@ function Skills() {
           />{" "}
           <span>Reactsjs</span>
         </h3>
-        <h3 style={{ width: "100%" }} className="bar1">
+        <h3 className="bar1">
           {" "}
           <CircularProgressbar value={percentage1} text={`${percentage1}%`} />
           <span> JavaScript </span>
         </h3>
-        <h3 style={{ width: "100%" }} className="bar1">
+        <h3 className="bar1">
           {" "}
           <CircularProgressbar
             value={percentage2}
@@ -71,7 +74,7 @@ function Skills() {
           />{" "}
           <span> HTML</span>
         </h3>
-        <h3 style={{ width: "100%" }} className="bar1">
+        <h3 className="bar1">
           {" "}
           <CircularProgressbar value={percentage3} text={`${percentage3}%`} />
           <span>CSS</span>

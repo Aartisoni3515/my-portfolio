@@ -340,7 +340,6 @@ span:nth-child(5) {
   }
   .img-content img {
     width: 200px;
-    /* height: 300px; */
     margin-left: 200px;
   }
 
@@ -349,10 +348,10 @@ span:nth-child(5) {
     font-size: 20px;
     margin-top: 200px;
     margin-left: -14px;
+    display: grid;
   }
   .line h3 {
     margin-left: 0px;
-    background: transparent;
 
     margin-top: 30px;
     text-align: center;

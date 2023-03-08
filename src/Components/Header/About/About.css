@@ -2,11 +2,9 @@
   width: 100%;
   height: 100%;
   background: #000;
-  
-
 }
 
-.head{
+.head {
   background: #000;
 }
 .about-img {
@@ -118,7 +116,6 @@
   text-align: center;
 }
 
-
 .mid-img {
   font-size: 30px;
   background: white;
@@ -166,8 +163,8 @@
 }
 /* skills */
 
-.progress h4 span{
-font-family: "Montserrat Medium";
+.progress h4 span {
+  font-family: "Montserrat Medium";
   text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
@@ -194,10 +191,8 @@ font-family: "Montserrat Medium";
   }
 }
 
-
 .skills {
-  margin-top: 60px;
-  margin-left: 100px;
+  margin: 10px 50px;
   display: grid;
   text-align: center;
 }
@@ -210,38 +205,43 @@ font-family: "Montserrat Medium";
   margin-top: 70px;
   margin-bottom: 30px;
   text-align: center;
-    font-size: 30px;
-    letter-spacing: 10px;
-  
+  font-size: 30px;
+  letter-spacing: 10px;
 }
 .bar {
-  width: 800px;
   display: flex;
   justify-content: center;
-  margin-left: 300px;
 }
-.bar1{
-  padding-right:80px ;
 
+.bar1 {
+  width: 200px;
+  padding-right: 50px;
+  padding-top: 20px;
 }
-.bar1 span{
+.bar1 span {
   margin-top: 40px;
-  
 }
-
 
 .CircularProgressbar .CircularProgressbar-path {
-  stroke: blue;
+  /* stroke: rgb(138, 142, 144); */
   stroke-linecap: round;
   transition: stroke-dashoffset 0.5s ease 0s;
 }
 
-
+.CircularProgressbar .CircularProgressbar-text {
+  fill: #7c8183;
+  font-size: 20px;
+  dominant-baseline: middle;
+  text-anchor: middle;
+}
+.CircularProgressbar-text{
+  color: wheat;
+}
 
 @media screen and (max-width: 800px) {
   .about-container {
     width: 100%;
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
 
   .about-content {
@@ -271,7 +271,6 @@ font-family: "Montserrat Medium";
     text-align: center;
   }
 
-
   .res {
     margin: 22px 39px 53px 57px;
   }
@@ -281,9 +280,7 @@ font-family: "Montserrat Medium";
     justify-content: center;
     text-align: center;
     margin: 0 auto;
-
   }
-
 
   .high {
     margin: 50px auto;
@@ -292,19 +289,18 @@ font-family: "Montserrat Medium";
 
     text-align: center;
   }
-  .high h2{
+  .high h2 {
     text-align: center;
     margin: 10px 12px;
   }
-  .mid-img{
+  .mid-img {
     font-size: 40px;
     background: white;
     border-radius: 15px;
     margin: 16px auto;
     padding: 8px;
-
   }
- 
+
   .second {
     margin: 50px auto;
     width: 300px;
@@ -312,39 +308,34 @@ font-family: "Montserrat Medium";
     margin-top: 20px;
   }
 
-  .mid-img2{
+  .mid-img2 {
     font-size: 30px;
     background: white;
     border-radius: 15px;
     margin: 16px auto;
   }
-  .second h2{
+  .second h2 {
     text-align: center;
     margin: 10px 65px;
   }
 
   .skills {
-    width: 700px;
     margin-top: 500px;
-    margin-left: -300px;
-   
+
     text-align: center;
   }
- 
+
   .progress h4 {
     text-align: center;
     margin-top: 60px;
-    margin-left: 300px;
   }
-  
+
   .bar {
     display: block;
     width: 200px;
-   margin-left: 360px;
-   padding-left: 40px;
+    padding-left: 40px;
   }
-  .bar1{
-   margin-top: 70px;
+  .bar1 {
+    margin-top: 70px;
   }
-  
 }

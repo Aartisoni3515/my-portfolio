@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Contact.css";
 import { IoLocationSharp } from "react-icons/io5";
 import { CgMail } from "react-icons/cg";
@@ -9,7 +9,7 @@ import {
   BsLinkedin,
   BsGithub,
 } from "react-icons/bs";
-import bg from "../Images/bg4.jpg";
+// import bg from "../Images/bg4.jpg";
 
 const Contact = () => {
   return (
@@ -102,7 +102,7 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <p style={{textAlign:"center", fontSize:"15px" , marginBottom:"10px"}}>Made by Aarti </p>
+        <p style={{textAlign:"center", fontSize:"15px" , padding:"50px 0px 10px 0px "}}>Made by Aarti </p>
       </div>
     </>
   );
