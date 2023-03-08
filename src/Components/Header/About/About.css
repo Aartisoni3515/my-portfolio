@@ -241,7 +241,7 @@ font-family: "Montserrat Medium";
 @media screen and (max-width: 800px) {
   .about-container {
     width: 100%;
-    margin: 0 auto;
+    margin-left: 20px;
   }
 
   .about-content {

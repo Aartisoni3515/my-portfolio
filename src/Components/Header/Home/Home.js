@@ -40,7 +40,7 @@ const Home = () => {
                   <span>I </span>
                   <span> am </span> 
                   <span>a </span> 
-                  <span>Front-End </span> <br />
+                  <span>Front-End </span> 
                   <span style={{color:"white"}}>developer. </span>
                 </h3>
               </div>
