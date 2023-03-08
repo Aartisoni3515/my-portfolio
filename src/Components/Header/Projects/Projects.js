@@ -65,14 +65,14 @@ const Projects = () => {
           style={{
             textAlign: "center",
             marginBottom: "60px",
-            marginLeft: "30%",
+            marginLeft: "31px",
             fontSize: "30px",
             letterSpacing: "10px",
           }}
         >
           <span style={{ marginTop: "120px" }}>C</span>heck
           <span>O</span>ut
-          <span>S</span>ome
+          <span>S</span>ome <br />
           <span>O</span>f<span>M</span>y<span>W</span>orks
         </h2>
 

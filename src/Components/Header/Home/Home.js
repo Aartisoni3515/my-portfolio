@@ -28,7 +28,7 @@ const Home = () => {
             <div className="text-content">
               <h1 id="hero">
                 {" "}
-                Hello, My Name is <br />
+                Hello, <br /> My Name is <br />
                 <span style={{ color: "blueviolet" }}>A</span>arti{" "}
                 <span style={{ color: "blueviolet" }}>S</span>oni
               </h1>
@@ -38,10 +38,10 @@ const Home = () => {
               <div class="line">
                 <h3 class="pop-outin">
                   <span>I </span>
-                  <span> am </span>
-                  <span>a </span>
-                  <span>Front-End </span>
-                  <span>developer. </span>
+                  <span> am </span> 
+                  <span>a </span>  <br />
+                  <span>Front-End </span> <br />
+                  <span style={{color:"white"}}>developer. </span>
                 </h3>
               </div>
             </div>

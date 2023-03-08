@@ -64,9 +64,7 @@ const Contact = () => {
           </h3>
         </div>
         <div className="contact-content">
-        {/* <img className="contact-img" src={bg} alt="" /> */}
           <div className="contact-form">
-            {/* <img src={bg} alt="" /> */}
             <h2 style={{ textAlign: "left", marginLeft: "90px" , marginTop: "50px" , fontSize:"30px"}}>
               Contact Form
             </h2>

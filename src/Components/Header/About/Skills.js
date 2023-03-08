@@ -46,7 +46,7 @@ function Skills() {
       <h4>
         <span>C</span>heck
         <span>O</span>ut
-        <span>S</span>ome
+        <span>S</span>ome <br />
         <span>O</span>f<span>M</span>y<span>S</span>kills
       </h4>
       <div className="bar">
