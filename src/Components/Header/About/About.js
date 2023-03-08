@@ -35,12 +35,13 @@ const About = () => {
             <div className="mid-des">
               <div className="high">
                 <h2>
-                  <span>H</span>igher <span>E</span>ducation
+                  <span>H</span>igher 
+                   <span>E</span>ducation
+                </h2>
                   <img
                     className="mid-img"
                     src="https://img.icons8.com/office/30/000000/graduation-cap.png"
                   />
-                </h2>
                 <p>
                   <strong style={{ fontSize: "20px" , margin:"10px auto" }}>
                     University of Rajasthan
@@ -54,11 +55,11 @@ const About = () => {
               <div className="second">
                 <h2>
                   <span>S</span>econdary <span>E</span>ducation
+                </h2>
                   <img
                     className="mid-img2"
                     src="https://img.icons8.com/bubbles/50/000000/school.png"
                   />
-                </h2>
                 <p>
                   <strong style={{ fontSize: "20px" }}>
                     Gems India sr. sec. school,Jaipur,Rajasthan.
