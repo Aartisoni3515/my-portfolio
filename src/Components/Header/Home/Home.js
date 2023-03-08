@@ -35,11 +35,11 @@ const Home = () => {
 
               {/* <h3>I am a Frontend developer.</h3> */}
 
-              <div class="line">
+             <div class="line">
                 <h3 class="pop-outin">
                   <span>I </span>
                   <span> am </span> 
-                  <span>a </span>  <br />
+                  <span>a </span> 
                   <span>Front-End </span> <br />
                   <span style={{color:"white"}}>developer. </span>
                 </h3>

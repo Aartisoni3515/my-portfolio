@@ -332,9 +332,10 @@ span:nth-child(5) {
     height: 100%;
   }
   #hero {
-    width: 200px;
-    margin: 0 auto;
+    width: 300px;
+    margin: -100px 0px 0px 300px;
     text-align: center;
+    font-size: 30px;
   }
 
   .home-content {
@@ -345,8 +346,9 @@ span:nth-child(5) {
     margin-top: 0px;
   }
   .img-content img {
-    width: 200px;
+    width: 150px;
     margin-left: -200px;
+    position: relative;
     /* height: 300px; */
     /* margin-left: 200px; */
   }
@@ -354,19 +356,20 @@ span:nth-child(5) {
   .text-content {
     font-family: "Urbanist", sans-serif;
     font-size: 20px;
-    margin-top: 200px;
+    margin-top: 0px;
     margin-left: 9px;
   }
   .line h3 {
     margin-left: 0px;
     background: transparent;
-
     margin-top: 30px;
     text-align: center;
+    
   }
   .line{
     margin-bottom: 100px;
-    background: transparent;
+    overflow-y: hidden;
+    margin-left: 200px;
   }
   .buttons {
     display: flex;
