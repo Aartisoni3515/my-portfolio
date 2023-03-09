@@ -65,7 +65,7 @@ const Contact = () => {
         </div>
         <div className="contact-content">
           <div className="contact-form">
-            <h2 style={{ textAlign: "left", marginLeft: "90px" , marginTop: "50px" , fontSize:"30px"}}>
+            <h2 style={{ textAlign: "center" , marginTop: "50px" , fontSize:"30px"}}>
               Contact Form
             </h2>
             <form>
@@ -102,7 +102,7 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <p style={{textAlign:"center", fontSize:"15px" , padding:"50px 0px 10px 0px "}}>Made by Aarti </p>
+        <p style={{textAlign:"center", fontSize:"15px" , padding:"50px 0px 10px 0px "}}>Made by Aarti with ❤️ </p>
       </div>
     </>
   );
