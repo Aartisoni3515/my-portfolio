@@ -60,7 +60,7 @@ const Projects = () => {
   return (
     <>
       <div className="project">
-        <h2
+        <h4
           className="head"
           style={{
             textAlign: "center",
@@ -73,7 +73,7 @@ const Projects = () => {
           <span>O</span>ut
           <span>S</span>ome 
           <span>O</span>f<span>M</span>y<span>W</span>orks
-        </h2>
+        </h4>
 
         <div className="project-container">
           {product.map((productItem) => {

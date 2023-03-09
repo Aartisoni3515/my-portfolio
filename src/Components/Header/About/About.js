@@ -17,7 +17,7 @@ const About = () => {
               </h1>
               <p>My Name is Aarti Soni.</p>
               <p>I am From Jaipur, Rajasthan.</p>
-              <p >
+              <p style={{lineHeight:"2rem"}} >
                 I am a Front-End Developer ( ReactJS, JavaScript, HTML, CSS,
                 Bootstrap).
               </p>
@@ -35,8 +35,7 @@ const About = () => {
             <div className="mid-des">
               <div className="high">
                 <h2>
-                  <span>H</span>igher 
-                   <span>E</span>ducation
+                  <span>H</span>igher <span>E</span>ducation 
                 </h2>
                   <img
                     className="mid-img"

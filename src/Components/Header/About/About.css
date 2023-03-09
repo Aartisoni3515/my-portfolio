@@ -53,7 +53,7 @@
   /* text-align: justify; */
   text-align: center;
   margin-top: 35px;
-  line-height: 3.5rem;
+  line-height: 4rem;
   font-size: 20px;
 }
 
@@ -316,7 +316,6 @@
   }
   .second h2 {
     text-align: center;
-    margin: 10px 65px;
   }
 
   .skills {
@@ -327,7 +326,7 @@
 
   .progress h4 {
     text-align: center;
-    margin-top: 60px;
+    padding-top: 80px;
   }
 
   .bar {
@@ -336,6 +335,6 @@
     padding-left: 40px;
   }
   .bar1 {
-    margin-top: 70px;
+    margin-top: 30px;
   }
 }
