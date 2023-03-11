@@ -17,11 +17,18 @@ const About = () => {
               </h1>
               <p>My Name is Aarti Soni.</p>
               <p>I am From Jaipur, Rajasthan.</p>
-              <p style={{lineHeight:"2rem"}} >
+              <p style={{ lineHeight: "2rem" }}>
                 I am a Front-End Developer ( ReactJS, JavaScript, HTML, CSS,
                 Bootstrap).
               </p>
-              <button className="res">Download Resume</button>
+
+              {/* <a
+                href="/asset/AartiSoni_Resume.pdf"
+                download="Aarti's Resume"
+                target="_blank"
+              > */}
+                <button className="res">Download Resume</button>
+              {/* </a> */}
             </div>
             <img src={bg3} alt="" />
           </div>
@@ -35,14 +42,14 @@ const About = () => {
             <div className="mid-des">
               <div className="high">
                 <h2>
-                  <span>H</span>igher <span>E</span>ducation 
+                  <span>H</span>igher <span>E</span>ducation
                 </h2>
-                  <img
-                    className="mid-img"
-                    src="https://img.icons8.com/office/30/000000/graduation-cap.png"
-                  />
+                <img
+                  className="mid-img"
+                  src="https://img.icons8.com/office/30/000000/graduation-cap.png"
+                />
                 <p>
-                  <strong style={{ fontSize: "20px" , margin:"10px auto" }}>
+                  <strong style={{ fontSize: "20px", margin: "10px auto" }}>
                     University of Rajasthan
                   </strong>
                   <br /> <br />
@@ -55,28 +62,27 @@ const About = () => {
                 <h2>
                   <span>S</span>econdary <span>E</span>ducation
                 </h2>
-                  <img
-                    className="mid-img2"
-                    src="https://img.icons8.com/bubbles/50/000000/school.png"
-                  />
+                <img
+                  className="mid-img2"
+                  src="https://img.icons8.com/bubbles/50/000000/school.png"
+                />
                 <p>
                   <strong style={{ fontSize: "20px" }}>
                     Gems India sr. sec. school,Jaipur,Rajasthan.
                   </strong>
                   <br />
                   <br />
-                  Passed 10th  with 88% from Rajasthan Board. <br />
+                  Passed 10th with 88% from Rajasthan Board. <br />
                   <br />
-                  Passed 12th  (Science Maths)  with 68.40% from Rajasthan
-                  Board.
+                  Passed 12th (Science Maths) with 68.40% from Rajasthan Board.
                 </p>
               </div>
             </div>
           </div>
         </div>
-      <div className="skills">
+        <div className="skills">
           <Skills />
-      </div>
+        </div>
       </div>
     </>
   );

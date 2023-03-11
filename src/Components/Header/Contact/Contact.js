@@ -34,14 +34,14 @@ const Contact = () => {
               <h5>
                 {" "}
                 mobile <br />
-                7357878964
+                {/* 7357878964 */}
               </h5>
             </div>
             <div>
               <CgMail style={{ fontSize: "27px" }} />
               <h5>
-                aartisoni3517 <br />
-                @gmail.com
+                {/* aartisoni3517 <br />
+                @gmail.com */}
               </h5>
             </div>
           </div>
@@ -49,23 +49,38 @@ const Contact = () => {
 
         <div className="icon">
           <h3>
-            {" "}
-            <BsInstagram />
+            {/* <a
+              href="https://www.linkedin.com/in/aarti-soni-90656b23a
+            "
+            >
+              <BsLinkedin />
+            </a> */}
           </h3>
           <h3>
-            <BsFacebook />
+            {/* <a href="https://github.com/Aartisoni3515">
+              <BsGithub />
+            </a> */}
           </h3>
           <h3>
-            {" "}
-            <BsLinkedin />
+            {/* <a href="https://www.instagram.com/soni_aarti15">
+              <BsInstagram />
+            </a> */}
           </h3>
           <h3>
-            <BsGithub />
+            {/* <a href="https://www.facebook.com/AartiSoni">
+              <BsFacebook />
+            </a> */}
           </h3>
         </div>
         <div className="contact-content">
           <div className="contact-form">
-            <h2 style={{ textAlign: "center" , marginTop: "50px" , fontSize:"30px"}}>
+            <h2
+              style={{
+                textAlign: "center",
+                marginTop: "50px",
+                fontSize: "30px",
+              }}
+            >
               Contact Form
             </h2>
             <form>
@@ -102,7 +117,15 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <p style={{textAlign:"center", fontSize:"15px" , padding:"50px 0px 10px 0px "}}>Made by Aarti with ❤️ </p>
+        <p
+          style={{
+            textAlign: "center",
+            fontSize: "15px",
+            padding: "50px 0px 10px 0px ",
+          }}
+        >
+          Made by Aarti with ❤️
+        </p>
       </div>
     </>
   );

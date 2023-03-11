@@ -1,3 +1,8 @@
+a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
 .contact-page {
   height: 100vh;
   width: 100%;
@@ -258,7 +263,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
-  .icon h3 {
+  .icon a {
     border: 1px solid white;
     border-radius: 30px;
     padding: 8px 10px;
